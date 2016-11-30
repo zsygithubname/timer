@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface TimeDataModel : NSObject
-
+@property (nonatomic, assign) NSTimeInterval timeInterval;
+@property (nonatomic, assign) BOOL isEnd;
+@property (nonatomic, assign) NSInteger hour;
+@property (nonatomic, assign) NSInteger minute;
+@property (nonatomic, assign) NSInteger second;
+@property (nonatomic, copy) void (^timechanged)();
+- (instancetype)initWithTimeInterval:(NSTimeInterval)interval;
 @end

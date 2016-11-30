@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TimeDataModel.h"
 @interface MyTableViewCell : UITableViewCell
-
+@property (nonatomic, strong) TimeDataModel *model;
 @end

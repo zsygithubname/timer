@@ -15,6 +15,8 @@
 		3BE1C3EF1DED1BEB00113431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1C3ED1DED1BEB00113431 /* LaunchScreen.storyboard */; };
 		3BE1C3FA1DED1BEB00113431 /* TimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C3F91DED1BEB00113431 /* TimeDemoTests.m */; };
 		3BE1C4051DED1BEB00113431 /* TimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C4041DED1BEB00113431 /* TimeDemoUITests.m */; };
+		3BE1C4141DED255100113431 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C4131DED255100113431 /* MyTableViewCell.m */; };
+		3BE1C4171DED265F00113431 /* TimeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1C4161DED265F00113431 /* TimeDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		3BE1C4001DED1BEB00113431 /* TimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE1C4041DED1BEB00113431 /* TimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeDemoUITests.m; sourceTree = "<group>"; };
 		3BE1C4061DED1BEB00113431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE1C4121DED255100113431 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		3BE1C4131DED255100113431 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		3BE1C4151DED265F00113431 /* TimeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDataModel.h; sourceTree = "<group>"; };
+		3BE1C4161DED265F00113431 /* TimeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				3BE1C3E31DED1BEB00113431 /* AppDelegate.m */,
 				3BE1C3E51DED1BEB00113431 /* ViewController.h */,
 				3BE1C3E61DED1BEB00113431 /* ViewController.m */,
+				3BE1C4121DED255100113431 /* MyTableViewCell.h */,
+				3BE1C4131DED255100113431 /* MyTableViewCell.m */,
+				3BE1C4151DED265F00113431 /* TimeDataModel.h */,
+				3BE1C4161DED265F00113431 /* TimeDataModel.m */,
 				3BE1C3E81DED1BEB00113431 /* Main.storyboard */,
 				3BE1C3EB1DED1BEB00113431 /* Assets.xcassets */,
 				3BE1C3ED1DED1BEB00113431 /* LaunchScreen.storyboard */,
@@ -274,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE1C3E71DED1BEB00113431 /* ViewController.m in Sources */,
+				3BE1C4171DED265F00113431 /* TimeDataModel.m in Sources */,
+				3BE1C4141DED255100113431 /* MyTableViewCell.m in Sources */,
 				3BE1C3E41DED1BEB00113431 /* AppDelegate.m in Sources */,
 				3BE1C3E11DED1BEB00113431 /* main.m in Sources */,
 			);
