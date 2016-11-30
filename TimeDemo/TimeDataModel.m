@@ -37,6 +37,7 @@
     _isEnd = self.components.second < 0 ? YES : NO;
     if (self.timechanged) {
         self.timechanged();
+        
     }
 }
 @end
